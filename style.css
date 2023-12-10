@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1502790671504-542ad42d5189?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY5NTEyOTkwMQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.principal {
+  background: #000000;
+  opacity: 0.75;
+  color: aliceblue;
+  border-radius: 15px;
+  padding: 20px;
+  width: 85%;
+  max-width: 500px;
+}
+
+.input-cidade {
+  text-align: center;
+  border-style: none;
+  outline: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  width: calc(90%);
+  gap: 10px;
+}
+
+button {
+  background-color: rgb(27, 84, 94);
+  padding: 10px;
+  border-radius: 50px;
+  border-style: none;
+  margin-top: 20px;
+  width: calc(30%);
+  outline: none;
+  cursor: pointer;
+}
+
+.img-busca {
+  width: 25px;
+}
+.img-status {
+  width: 45px;
+}
+
+.status {
+  display: flex;
+  gap: 20px;
+
+  justify-content: center;
+}
+.status-ceu {
+  text-transform: capitalize;
+}
